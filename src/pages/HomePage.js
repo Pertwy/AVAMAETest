@@ -32,6 +32,9 @@ export default function HomePage() {
     function navigateContactUs(){
         history.push("/contact-us")
     }
+    function navigateAboutUs(){
+        history.push("/about-us")
+    }
 
     return (
         <div>
@@ -55,7 +58,7 @@ export default function HomePage() {
                         <li>Ut tempor tempus ex sit </li>
                         <li>Nullam rutrum cursus nisl at pulvinar. Aliquam at vulputate sem.</li>
                     </ul>
-                    <CompanyButton title="Learn more" isDark={true} isFullWidth={true} isAlwaysFullWidth={false}/>
+                    <CompanyButton title="Learn more" isDark={true} isFullWidth={true} isAlwaysFullWidth={false} clicked={()=>navigateAboutUs()}/>
                 </div>
                 <div className="office-img-bot office-img">
                     {/* <img src="/static/media/office2.c1d102ce.jpg" alt="" /> */}
