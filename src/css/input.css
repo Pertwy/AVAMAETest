@@ -1,0 +1,47 @@
+/* <div style="float:left;margin-right:20px;"> */
+
+.input-div{
+    float:left;
+    margin-right: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+.full-width{
+    width: 100%;
+}
+
+
+textarea, label {
+    width: 100%;
+}
+input, label {
+    width: 100%;
+}
+
+textarea{
+    height: 100px;
+    border-radius: 5px;
+    border:rgb(219, 220, 221) solid 1px;
+    background-color: rgba(248,249,252,255);
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border:rgb(219, 220, 221) solid 1px;
+    background-color: rgba(248,249,252,255);
+}
+
+
+
+label{
+    font-size: 0.8em;
+    color: rgb(97, 97, 97);
+}
+
+.address-container{
+    display: block;
+}
+
+.tall{
+    height:200px
+}

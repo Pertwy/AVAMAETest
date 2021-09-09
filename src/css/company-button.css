@@ -1,0 +1,62 @@
+:root {
+    --light-background: rgba(238,247,255,255);
+    --light-background-hover: rgb(222, 234, 245);
+    --light-text: #5491c4;
+    --dark-background:rgba(47,123,184,255);
+    --dark-background-hover: rgb(29, 115, 185);
+    --dark-text: #fff;
+}
+
+.company-btn{
+  display: inline-block;
+  /* padding: 6px 25px; */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  z-index: -100;
+  width:auto
+}
+
+.company-btn p{
+    padding: 6px 25px;
+}
+
+.always-full{
+    width: 100%;
+}
+.mar5{
+    margin-top: 5px;
+}
+
+.dark-button{
+    background-color: var(--dark-background);
+}
+.dark-button p{
+    color: var(--dark-text);
+}
+.dark-button:hover{
+    background-color: var(--dark-background-hover);
+}
+
+.light-button{
+    background-color: var(--light-background);
+}
+.light-button p{
+    color: var(--light-text);
+}
+.light-button:hover{
+    background-color: var(--light-background-hover);
+}
+
+
+@media (max-width: 768px) {
+    .full-width{
+        width: 100%;
+    }
+    /* .company-btn{
+        margin-right: 10%;
+    } */
+  }
+

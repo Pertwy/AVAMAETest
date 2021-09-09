@@ -1,0 +1,15 @@
+.checkbox{
+    height: 12px;
+    text-align: left;
+    width: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+
+input{
+    border-radius: 5px;
+    border:rgb(219, 220, 221) solid 1px;
+    background-color: rgba(248,249,252,255);
+}
