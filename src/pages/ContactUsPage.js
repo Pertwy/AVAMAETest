@@ -30,7 +30,6 @@ export default function ContactUsPage() {
     }
     
 
-
     const handleSubmit = (e) => {
         e.preventDefault();
         var numbers = []

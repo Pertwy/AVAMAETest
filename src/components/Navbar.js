@@ -31,7 +31,7 @@ export default function Navbar() {
                     <Link to="/" className="nav-link">HOME</Link>
                     <Link to="/about-us" className="nav-link">ABOUT US</Link>
                     <Link to="/contact-us" className="nav-link">CONTACT US</Link>
-                    <a className="icon"  onClick={()=>myFunction()}>
+                    <a href="#" className="icon"  onClick={()=>myFunction()}>
                         <i className=""><MenuOutlined /></i>
                     </a>
                     {/* <SignInButton title="Sign in"/> */}
